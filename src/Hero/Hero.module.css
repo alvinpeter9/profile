@@ -1,0 +1,153 @@
+.Wrapper {
+  width: 80%;
+  height: 80vh;
+  margin: auto;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.HeroSection {
+  height: 100vh;
+  position: relative;
+  background-color: #e8bfcb;
+  animation: Effect .8s ease-in-out;
+}
+@keyframes Effect {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+
+}
+.Hero {
+  flex: 30%;
+  color: #030300;
+  font-weight: bolder;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  height: 150px;
+}
+.HeroImage {
+  width: 65%;
+  min-height: 200px;
+  object-fit: contain;
+}
+.Hero > em {
+  display: block;
+  letter-spacing: normal;
+  font-size: 10px;
+  font-weight: bold;
+}
+.BigButton {
+  min-width: 200px;
+  height: 50px;
+  text-align: center;
+  margin: 10px auto;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s;
+  outline: none;
+  border: 2px solid #508fed;
+  border-radius: 5px;
+  box-shadow:  -1px -1px 3px #3F3D56;
+  color: #fafafa;
+  background: #306ec9;
+}
+.BigButton:active {
+  box-shadow: inset 1px 1px 3px #c8d0e7, inset -1px -1px 3px #3F3D56;
+}
+.Btn {
+  display: inline-block;
+  height: 100%;
+  padding: 5px 10px;
+  animation: Run 4s linear infinite;
+  animation-direction: alternate;
+  overflow: hidden;
+}
+@keyframes Run {
+  0%{
+    background: #508fed;
+    width: 30%;
+  }
+  50%{
+    background: #508fed;
+    width: 50%;
+  }
+  100%{
+    background: #508fed;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 550px) {
+  .HeroSection {
+    height: auto;
+  }
+  .Wrapper {
+    width: 100%;
+    height: auto;
+  }
+  .Hero {
+    flex: 50%;
+    height: auto;
+  }
+  .BigButton {
+    min-width: 150px;
+    height: 30px;
+    font-weight: normal;
+  }
+  @keyframes Run {
+    0%{
+      background: #508fed;
+      width: 50%;
+    }
+    50%{
+      background: #508fed;
+      width: 80%;
+    }
+    100%{
+      background: #508fed;
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) and (max-height: 1024px) {
+  .Wrapper {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-flow: column;
+    padding-top: 5px;
+  }
+  .HeroSection {
+    height: auto;
+    padding-top: 20px;
+    animation: none;
+  }
+  .Hero {
+    text-align: justify;
+    width: 200px;
+    height: auto;
+    font-size: 12px;
+    align-self: center;
+  }
+  .HeroImage {
+    /* display: none; */
+    width: 100%;
+    min-height: 50vh;
+    align-self: center;
+  }
+}
+@media screen and (max-width:1290px) and (min-height: 1200px) {
+  .Wrapper {
+    width: 95%;
+    height: auto;
+  }
+  .HeroSection {
+    height: auto;
+  }
+}

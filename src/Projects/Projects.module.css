@@ -1,0 +1,21 @@
+.Wrapper{
+  position: relative;
+  height: auto;
+  animation: Effect .5s ease-in-out;
+}
+@keyframes Effect {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+
+}
+.Container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+}
