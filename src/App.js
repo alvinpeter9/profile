@@ -1,43 +1,46 @@
-import React  from 'react';
-import { Route } from 'react-router-dom';
-import useWindowDimensions from './UI/Hook/useWindowDimensions';
-
-import Section from './Section/Section';
-import About from './About/About';
-import Projects from './Projects/Projects';
-import Footer from './Footer/Footer';
-import Hero from './Hero/Hero';
+import { useEffect } from 'react';
+import './App.css';
+import About from './components/About';
+import Projects from './components/Projects';
+import Hero from './components/Hero';
+import Header from './components/Header';
+import Skills from './components/Skills';
+import Feature from './components/Feature';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
+import Qualification from './components/Qualification';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+import Testimonial from './components/Testimonial';
 
 
 
 
 const App =()=> {
 
-  const screenSize  = useWindowDimensions();
-  const display = screenSize.width < 550 || screenSize.width < 1000 ||
-                  (screenSize.width < 1290 && screenSize.height > 1200);
-
-    let components = display ? <div>
-    <Hero show={display} />
-    <Section show={display} />
-    <Footer show={display}
-            display={display}/>
-    </div>:<div>
-
-      <Route path="/" exact component={Hero} />
-      <Route path="/about" exact component={About} />
-      <Route path="/projects" exact component={Projects} />
-      <Route path="/contact" exact component={Footer} />
-      <Route path="/profile" exact component={Hero} />
-
-      </div>;
+  useEffect(() => {
+    Aos.init({duration: 2000})
+}, []);
 
     return(
-      <React.Fragment>
+      <>
 
-        {components}
+        <Header />
+        
+        <main className="main">
+          <Hero />
+          <About />
+          <Skills />
+          <Qualification />
+          <Projects />
+          <Feature />
+          <Testimonial />
+          <Contact />
+        </main>
 
-      </React.Fragment>
+        <Footer />
+
+      </>
     );
 }
 
