@@ -8,7 +8,7 @@ export default function Testimonial() {
   return(
     <section class="testimonial section" id="testimonial">
         <h2 class="section__title">Testimonial</h2>
-        <span class="section__subtitle">My clients saying</span>
+        <span class="section__subtitle">What people think about me</span>
         <div class="testimonial__container container">
             <Carousel
                 showArrows={true}
