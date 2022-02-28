@@ -146,7 +146,7 @@ export const TestimonialData = [
         img: displaypic, 
         name: 'Victor Aienobe', 
         job: 'Software Developer', 
-        text: 'The simple and intuitive design makes it easy for me use. I highly recommend Fetch to my peers.'
+        text: 'Alvin delivers his work on-time and to specification, he pays attention to improve the aesthetics of the website as well as the functionality. Throughout the entire process he is responsive and willing to work through issues as they arise. It’s obvious he takes tremendous pride in his work and I wouldn’t hesitate to recommend or work with him again.'
     },
     {
         img: displaypic, 
