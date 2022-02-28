@@ -152,7 +152,7 @@ export const TestimonialData = [
         img: displaypic, 
         name: 'Chidi Okpala', 
         job: 'Software Developer', 
-        text: 'The simple and intuitive design makes it easy for me use. I highly recommend Fetch to my peers.'
+        text: 'Working with Alvin was better than expected, He is an incredibly talented developer but what really makes him stand out is his work ethic and steady approach. He is always ready to improve on his work.'
     },
     {
         img: displaypic, 
