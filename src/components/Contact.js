@@ -3,7 +3,8 @@ import { BiSend, BiError } from "react-icons/bi";
 import { GiCheckMark } from 'react-icons/gi';
 import { GoLocation} from 'react-icons/go';
 import axios from '../axios'; 
-import { SiMaildotru, SiWhatsapp } from 'react-icons/si'; 
+import { SiMaildotru } from 'react-icons/si';
+import { BiPhoneCall } from 'react-icons/bi';
 
 
 export default function Contact() {
@@ -50,13 +51,12 @@ const commentHandler =(e)=>{
                 <div>
 
                     <div className="contact__information">
-                         <i className="uil uil-phone contact__icon"></i>
-                        <div><SiWhatsapp className='contact__icon' />
-                            <h3 className="contact__title">Whatsapp</h3>
-                            <span className="contact__subtitle">
-                            <a href='https://wa.me/+2348102463399' target="_blank" rel='noreferrer nofollow'>+234 810 246 3399</a></span>
+                         <BiPhoneCall className='contact__icon' />
+                        <div>
+                            <h3 className="contact__title">Call</h3>
+                            <span className="contact__subtitle"><a href="tel:+447774267407"> +44 7774 267407</a></span>
                         </div>
-                    </div>
+                    </div> 
 
                     <div className="contact__information">
                         <i className="uil uil-envelope contact__icon"></i>
