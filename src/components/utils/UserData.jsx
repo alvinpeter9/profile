@@ -4,7 +4,8 @@ import naijakids from '../../assets/img/naijakids.PNG';
 import profile_image from '../../assets/img/profile.PNG';
 import tictactoe from '../../assets/img/tictactoe.PNG';
 import dictionary from '../../assets/img/dictionaryapp.PNG';
-import displaypic from '../../assets/img/pic.png';
+import maleIcon from '../../assets/img/male.png';
+import femaleIcon from '../../assets/img/female.png';
 import justchat from '../../assets/img/justchat.PNG';
 
 
@@ -137,33 +138,33 @@ export const AccordionData = [
 
 export const TestimonialData = [
     {
-        img: displaypic, 
+        img: maleIcon, 
         name: 'Benedict Ejike', 
         job: 'Electrical Engineer', 
-        text: 'I have worked with Alvin and he displayed exceptional'
+        text: 'Apart from being a good developer, Alvin is also a good teamplayer and a fast learner. I have known him for over 7years and without any compromise, he is the go-to guy for web development.'
     },
     {
-        img: displaypic, 
+        img: maleIcon, 
         name: 'Victor Aienobe', 
         job: 'Software Developer', 
         text: 'Alvin delivers his work on-time and to specification, he pays attention to improve the aesthetics of the website as well as the functionality. Throughout the entire process he is responsive and willing to work through issues as they arise. It’s obvious he takes tremendous pride in his work and I wouldn’t hesitate to recommend or work with him again.'
     },
     {
-        img: displaypic, 
+        img: maleIcon, 
         name: 'Chidi Okpala', 
         job: 'Software Developer', 
         text: 'Working with Alvin was better than expected, He is an incredibly talented developer but what really makes him stand out is his work ethic and steady approach. He is always ready to improve on his work.'
     },
     {
-        img: displaypic, 
+        img: femaleIcon, 
         name: 'Ella Ibodje', 
         job: 'UI/UX Designer', 
-        text: 'The simple and intuitive design makes it easy for me use. I highly recommend Fetch to my peers.'
+        text: 'It`s his ability to adapt to new technologies that makes him stand out, you can see the passion and dedication in his work.'
     },
     {
-        img: displaypic, 
+        img: maleIcon, 
         name: 'Phillip Jemikahlajah', 
         job: 'Full Stack Developer', 
-        text: 'The simple and intuitive design makes it easy for me use. I highly recommend Fetch to my peers.'
+        text: 'Without any doubt, I highly recommend Alvin for frontend development roles. He has shown me repeatedly that he is committed to deliver at the utmost form of professionalism'
     }
 ];
