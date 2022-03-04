@@ -59,16 +59,16 @@ const commentHandler =(e)=>{
                     </div> 
 
                     <div className="contact__information">
-                        <i className="uil uil-envelope contact__icon"></i>
-                        <div><SiMaildotru className='contact__icon' />
+                        <SiMaildotru className='contact__icon' />
+                        <div>
                             <h3 className="contact__title"> Email</h3>
                             <span className="contact__subtitle">alvinpeter9@gmail.com</span>
                         </div>
                     </div>
 
                     <div className="contact__information">
-                        <i className="uil uil-map-marker contact__icon"></i>
-                        <div><GoLocation className='contact__icon' />
+                        <GoLocation className='contact__icon' />
+                        <div>
                             <h3 className="contact__title">Location</h3>
                             <span className="contact__subtitle">United Kingdom</span>
                         </div>
