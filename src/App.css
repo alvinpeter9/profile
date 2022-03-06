@@ -275,18 +275,24 @@ a {
 }
 .home__blob {
     width: 200px;
-    fill: var(--first-color);
-    stroke-dasharray: 1;
-    stroke-dashoffset: 1;
-    animation: dash 20s ease-in-out alternate infinite;
+    fill: white;
+    animation: fill 0.5s ease forwards 4s;
+}
+.home__blob path{
+    stroke-dasharray: 610.4;
+    stroke-dashoffset: 610.4;
+    animation: dash 2s ease forwards 2s;
 }
 @keyframes dash {
-    from {
-        stroke-dashoffset: 1;
-        fill: var(--first-color-lighter);  
-    }
     to {
         stroke-dashoffset: 0;
+    }
+}
+@keyframes fill {
+    from {
+        fill: var(--first-color-alt);
+    }
+    to {
         fill: var(--first-color);
     }
 }
