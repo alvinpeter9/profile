@@ -276,7 +276,7 @@ a {
 .home__blob {
     width: 200px;
     fill: white;
-    animation: fill 0.5s ease forwards 8s;
+    animation: fill 0.5s ease forwards 4s;
 }
 .home__blob path{
     stroke-dasharray: 610.4;
