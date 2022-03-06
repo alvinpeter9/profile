@@ -276,12 +276,12 @@ a {
 .home__blob {
     width: 200px;
     fill: white;
-    animation: fill 0.5s ease forwards 4s;
+    animation: fill 0.5s ease forwards 2s;
 }
 .home__blob path{
     stroke-dasharray: 610.4;
     stroke-dashoffset: 610.4;
-    animation: dash 8s ease forwards 1.8s;
+    animation: dash 10s ease forwards 1.8s;
 }
 @keyframes dash {
     to {
