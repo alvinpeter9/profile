@@ -59,9 +59,9 @@ export const TimeLineData = [
     {
         Education: [
             {
-                Name: 'Teesside University, UK',
-                Major: 'Msc Computing',
-                Timing: '2021 - Present'
+                Name: 'Teesside University, Middlesbrough, UK',
+                Major: 'MSc Computing',
+                Timing: 'January 2022 - Present'
             },
             {
                 Name: 'Federal University of Petroleum Resources, Nigeria',
