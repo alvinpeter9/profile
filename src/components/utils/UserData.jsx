@@ -109,6 +109,10 @@ export const AccordionData = [
         {
             title:'React/NextJs',
             percent: '70%'
+        },
+        {
+            title:'D3Js',
+            percent: '70%'
         }]
     },
 
