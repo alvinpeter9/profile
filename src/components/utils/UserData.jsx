@@ -71,14 +71,14 @@ export const TimeLineData = [
         ],
         Work: [
             {
-                Name: 'SideHustle Ng',
+                Name: 'Gotahia',
                 Major: 'FrontEnd (React) Developer',
-                Timing: '2021'
+                Timing: '2021 - 2022'
             },
             {
                 Name: 'Freelance',
                 Major: 'FrontEnd Developer',
-                Timing: '2019 - 2020'
+                Timing: '2020 - 2021'
             }],
     }, 
 
