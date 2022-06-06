@@ -7,9 +7,16 @@ import dictionary from '../../assets/img/dictionaryapp.PNG';
 import maleIcon from '../../assets/img/male.png';
 import femaleIcon from '../../assets/img/female.png';
 import justchat from '../../assets/img/justchat.PNG';
+import photoshare from '../../assets/img/photoshare.PNG';
 
 
 export const ProjectData = [
+        {
+        ProjectName: 'PhotoShare App',
+        PreviewImage: photoshare,
+        Url: 'https://photoshareapp.netlify.app',
+        Description: 'Full stack social media application made with ReactJs, Firebase and Sanity'
+    },
     {
         ProjectName: 'Real Estate App',
         PreviewImage: homeng,
