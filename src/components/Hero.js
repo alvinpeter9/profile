@@ -50,7 +50,7 @@ const Hero = () => {
             <h1 className="home__title">Hi, I am Alvin</h1>
             <h3 className="home__subtitle">A Frontend Developer.</h3>
             <p className="home__description">
-            Passionate web developer with over one year experience</p>
+            Passionate web developer with over two years experience</p>
             <a href="#contact" className="button button--flex">
                Contact Me <BiSend className="button__icon"/>
             </a>
