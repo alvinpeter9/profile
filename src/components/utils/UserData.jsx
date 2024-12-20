@@ -68,7 +68,7 @@ export const TimeLineData = [
             {
                 Name: 'Teesside University, Middlesbrough, UK',
                 Major: 'MSc Computing',
-                Timing: 'January 2022 - Present'
+                Timing: 'January 2022 - January 2024'
             },
             {
                 Name: 'Federal University of Petroleum Resources, Nigeria',
@@ -111,6 +111,10 @@ export const AccordionData = [
         },
         {
             title:'JavaScript',
+            percent: '70%'
+        },
+                        {
+            title:'TypeScript',
             percent: '60%'
         },
         {
