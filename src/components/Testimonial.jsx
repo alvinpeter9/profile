@@ -6,10 +6,10 @@ import { TestimonialData } from './utils/UserData';
 
 export default function Testimonial() {
   return(
-    <section class="testimonial section" id="testimonial">
-        <h2 class="section__title">Testimonial</h2>
-        <span class="section__subtitle">What people think about me</span>
-        <div class="testimonial__container container">
+    <section className="testimonial section" id="testimonial">
+        <h2 className="section__title">Testimonial</h2>
+        <span className="section__subtitle">What people think about me</span>
+        <div className="testimonial__container container">
             <Carousel
                 showArrows={true}
                 infiniteLoop={true}

@@ -314,6 +314,9 @@ a {
 .home__description {
     margin-bottom: var(--mb-2);
 }
+.home__description-subtitle {
+    display: block;
+}
 .home__scroll {
     display: none;
 }
@@ -429,6 +432,7 @@ a {
 .skills__header {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     margin-bottom: var(--mb-2-5);
     cursor: pointer;
 }
@@ -448,7 +452,7 @@ a {
     color: var(--text-color-light);
 }
 .skills__arrow {
-    margin-right: auto;
+    margin-left: auto;
     transition: .4s;
 }
 .skills__list {

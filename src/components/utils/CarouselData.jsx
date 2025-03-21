@@ -27,7 +27,7 @@ function CarouselData({ testimonial_img, testifier, job, testimonial}) {
         
         </div>
 
-        <p class="testimonial__description">{testimonial}</p>
+        <p className="testimonial__description">{testimonial}</p>
     </div>
   );
 }

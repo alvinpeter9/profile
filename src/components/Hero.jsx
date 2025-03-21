@@ -1,6 +1,7 @@
 import { BiDownArrowAlt, BiMouse, BiSend } from 'react-icons/bi';
 import { FaGithub, FaLinkedin, FaTwitterSquare } from 'react-icons/fa';
 import avatar from '../assets/img/avatar.png';
+import { Typewriter } from 'react-simple-typewriter';
 
 
 
@@ -12,7 +13,7 @@ const Hero = () => {
         <div className="home__content grid">
           <div className="home__social">
 
-            <a data-aos="slide-right" href="https://www.linkedin.com/in/simeon-alvin-ibodje-20a0a4157" target="_blank" 
+            <a data-aos="slide-right" href="https://www.linkedin.com/in/simeon-ibodje" target="_blank" 
                  rel='noreferrer nofollow' className="home__social-icon">
                 <FaLinkedin/>
             </a>
@@ -48,9 +49,24 @@ const Hero = () => {
 
           <div data-aos="zoom-in" className="home__data">
             <h1 className="home__title">Hi, I am Alvin</h1>
-            <h3 className="home__subtitle">A Frontend Developer.</h3>
+            <h3 className="home__subtitle">A Software Developer.</h3>
             <p className="home__description">
-            Passionate web developer with over two years experience</p>
+            🚀 Building performant, scalable, and user-friendly web experiences
+            <span className="home__description-subtitle"> — {' '}
+          <Typewriter
+            words={[
+              "One line of code at a time. 💻",
+              "One component at a time. ⚛️",
+              "One innovation at a time. ✨",
+            ]}
+            loop={true}
+            cursor
+            cursorStyle="|"
+            typeSpeed={80}
+            deleteSpeed={50}
+            delaySpeed={1000}
+          />
+        </span></p>
             <a href="#contact" className="button button--flex">
                Contact Me <BiSend className="button__icon"/>
             </a>

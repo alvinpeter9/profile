@@ -5,10 +5,11 @@ import { AiOutlinePicture, AiOutlineCloseCircle, AiOutlineAppstore } from 'react
 
 
 const Header = () => {
-
-// =============================== DARKMODE TOGGLE ===========================================
+  const [headerScroll, setHeaderScroll] = useState();
+  const [navToggle, setNavToggle] = useState(false);
   const [isDark, setisDark] = useState(false);
-
+  
+  // =============================== DARKMODE TOGGLE ===========================================
   const selectedTheme = localStorage.getItem('selected-theme');
   useEffect(() => {
     if (selectedTheme) {
@@ -32,8 +33,6 @@ const Header = () => {
 
 // =========================ADD SHADOW TO HEADER WHEN SCROLLED DOWN===========================
 
-const [headerScroll, setHeaderScroll] = useState();
-
   useEffect(() => {
     const scrollHeader = (e)=>{
       // When the scroll is greater than 200 viewport height, add the scroll-header class to the header tag
@@ -50,8 +49,6 @@ const [headerScroll, setHeaderScroll] = useState();
 
   // ========================REMOVE MOBILE MENU WHEN CLICKED================================
 
-  const [navToggle, setNavToggle] = useState(false);
-
   const navToggleHandler = () => setNavToggle(!navToggle);
 
   const navLink = document.querySelectorAll('.nav__link');
@@ -62,10 +59,6 @@ const [headerScroll, setHeaderScroll] = useState();
         navLink.forEach(n=>n.removeEventListener('click', navToggleHandler))
       }
     })
-
-  // =======================================================================================
-
-
 
     return(
       <header className={`header ${headerScroll? 'scroll-header': "" }`} id="header">
@@ -108,7 +101,7 @@ const [headerScroll, setHeaderScroll] = useState();
 
                 <li className="nav__item">
                   <a href="#contact" className="nav__link">
-                    <BiSend className="nav__icon"/> ContactMe
+                    <BiSend className="nav__icon"/> Contact Me
                   </a>
                 </li>
               </ul>

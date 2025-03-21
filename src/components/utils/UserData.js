@@ -78,6 +78,11 @@ export const TimeLineData = [
         ],
         Work: [
             {
+                Name: 'Parcel2go Ltd',
+                Major: 'SEO Developer',
+                Timing: 'August 2024 - Present'
+            },
+            {
                 Name: 'Gotahia',
                 Major: 'FrontEnd (React) Developer',
                 Timing: '2021 - 2022'

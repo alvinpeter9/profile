@@ -54,7 +54,7 @@ const commentHandler =(e)=>{
                          <BiPhoneCall className='contact__icon' />
                         <div>
                             <h3 className="contact__title">Call</h3>
-                            <span className="contact__subtitle"><a href="tel:+447774267407"> +44 7774 267407</a></span>
+                            <span className="contact__subtitle"><a href="tel:+44XXXXXXXX"> +44 XXXX XXXXX</a></span>
                         </div>
                     </div> 
 
