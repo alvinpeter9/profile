@@ -103,7 +103,7 @@ export const TimeLineData = [
 export const AccordionData = [
     {
         stack: 'Frontend',
-        years: 'More than a year',
+        years: 'User Interfaces',
         icon: 'BsBraces',
         tech: [
             {
@@ -116,15 +116,15 @@ export const AccordionData = [
         },
         {
             title:'JavaScript',
-            percent: '70%'
+            percent: '80%'
         },
                         {
             title:'TypeScript',
-            percent: '60%'
+            percent: '70%'
         },
         {
             title:'React/NextJs',
-            percent: '70%'
+            percent: '80%'
         },
         {
             title:'D3Js',
@@ -134,7 +134,7 @@ export const AccordionData = [
 
     {
         stack: 'Backend',
-        years: 'More than a year',
+        years: 'API Design/Integration',
         icon: 'BiServer',
         tech: [
             {
@@ -143,15 +143,15 @@ export const AccordionData = [
         },
         {
             title:'PostgreSQL',
-            percent: '50%'
-        },
-        {
-            title:'Firebase',
             percent: '60%'
         },
         {
-            title:'Supabase',
-            percent: '50%'
+            title:'NodeJs',
+            percent: '70%'
+        },
+        {
+            title:'Java Spring Boot',
+            percent: '70%'
         }]
     },
 ];
