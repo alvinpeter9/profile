@@ -30,7 +30,7 @@ const Footer = () =>{
           </ul>
 
           <div className="footer__socials">
-            <a href="https://www.linkedin.com/in/simeon-alvin-ibodje-20a0a4157" 
+            <a href="https://www.linkedin.com/in/simeon-ibodje" 
                 target="_blank" rel='noreferrer nofollow' className="footer__social">
               <FaLinkedin />
             </a>
