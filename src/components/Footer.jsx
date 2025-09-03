@@ -14,7 +14,7 @@ const Footer = () =>{
         <div className="footer__container container grid">
           <div>
             <h1 className="footer__title">Alvin</h1>
-            <span className="footer__subtitle">Frontend developer</span>
+            <span className="footer__subtitle">Full Stack developer</span>
           </div>
 
           <ul className="footer__links">
